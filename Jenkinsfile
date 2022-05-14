@@ -5,7 +5,8 @@ pipeline {
             steps {
                 echo 'Welcome to Jenkins World'
                 sh 'python --version'
-                sh 'python hello-world.py'
+                sh 'python pipeline.py'
             }
         }
     }
+}
